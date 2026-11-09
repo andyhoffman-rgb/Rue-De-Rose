@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Rue de Rose</title>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Cormorant+Garamond:ital,wght@1,500;1,600&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="promo" id="promo"></div>
+    
+    <!-- HEADER -->
+    <header>
+      <div class="hb">
+        <button class="burger" id="bg" aria-label="Open menu">☰</button>
+        <nav class="dnav" id="dn" aria-label="Main">
+          <a href="#home">Home</a>
+          <div class="dd">
+            <button>Shop ▾</button>
+            <div>
+              <a href="#collection">All collections</a>
+              <a href="#earrings">Earrings</a>
+              <a href="#necklaces">Necklaces</a>
+              <a href="#bracelets">Bracelets</a>
+              <a href="#rings">Rings</a>
+            </div>
+          </div>
+          <a href="#about">About us</a>
+          <a href="#order">How to order</a>
+        </nav>
+        <a class="logo" href="#home">Rue de Rose</a>
+        <button class="cartbtn" id="open" aria-label="Open cart">Cart<b id="cnt">0</b></button>
+      </div>
+    </header>
+    <div class="scrim" id="mscrim"></div>
+
+    <!-- MOBILE MENU -->
+    <div class="menu" id="menu">
+      <button class="x" id="mx" aria-label="Close menu">×</button>
+      <a href="#home">Home</a>
+      <a href="#collection">All collections</a>
+      <a href="#earrings">Earrings</a>
+      <a href="#necklaces">Necklaces</a>
+      <a href="#bracelets">Bracelets</a>
+      <a href="#rings">Rings</a>
+      <a href="#about">About us</a>
+      <a href="#order">How to order</a>
+    </div>
+
+    <!-- PAGES -->
+    <main>
+      <!-- Page: home -->
+      <div class="view" id="v-home">
+        <div class="hero" id="hero">
+          <div>
+            <p>“A little sparkle. A lot of elegance.”</p>
+            <a class="btn solid" href="#collection">Shop now</a>
+            <a class="btn" href="#order">How to order</a>
+          </div>
+        </div>
+        <div class="wrap">
+          <div class="cats" id="cats"></div>
+        </div>
+        <div class="sec">
+          <div class="sh">
+            <h2>Best sellers</h2>
+            <div class="arrows">
+              <button id="pl" aria-label="Previous">‹</button>
+              <button id="pr" aria-label="Next">›</button>
+            </div>
+          </div>
+          <div class="rail" id="rail"></div>
+        </div>
+        <div class="banner">
+          <div>
+            <h3>Launch offer: 15% off</h3>
+            <p>We’ve just opened our doors. Add your favourites to the cart and the discount is applied automatically.</p>
+            <a class="btn" href="#collection">Shop the collection</a>
+          </div>
+        </div>
+        <div style="height:2.5rem"></div>
+        <div class="vals">
+          <div>
+            <h3>Designed for the daily grind</h3>
+            <p>From campus to weekly plans: stylish, trendy pieces that won’t break the bank. Starting at just ₹199.</p>
+          </div>
+          <div>
+            <h3>Consciously curated</h3>
+            <p>We hand-curate every collection to ensure meaningful style with minimal impact.</p>
+          </div>
+          <div>
+            <h3>Shop via Instagram DM</h3>
+            <p>See something you love? Add it to your cart, or just drop us a DM. Fast, convenient ordering for students.</p>
+          </div>
+        </div>
+        <div class="ig"><a href="#" class="iglink" target="_blank" rel="noopener">@RUE.DE.ROSE_</a></div>
+      </div>
+
+      <!-- Page: about -->
+      <div class="view" id="v-about">
+        <div class="page-hero" id="abouthero">
+         <div>
+          <small>Rue De Rose Jewellery</small>
+          <h1>About Us</h1>
+         </div>
+        </div>
+        <div class="tanbg">
+          <div class="about">
+            <div>
+              <h3>Made for you</h3>
+              <p>Rue de Rose is an online store that provides affordable, trendy jewellery for students and young adults. Customers can view the products and place orders online or through Instagram.</p>
+              <a class="btn" href="#collection">Shop the collection</a>
+            </div>
+            <img id="aboutimg" alt="Model wearing jewellery">
+          </div>
+        </div>
+      </div>
+
+      <!-- Page: order -->
+      <div class="view" id="v-order">
+        <div class="tanbg">
+          <div class="wrap"><h2>How to order</h2></div>
+          <div class="steps">
+            <div class="step">
+              <em>Step 1</em>
+              <h3>Browse the collection</h3>
+              <p>Explore our daily jewellery essentials and add your favourite pieces to the cart, starting at ₹199.</p>
+            </div>
+            <div class="step">
+              <em>Step 2</em>
+              <h3>Send us your cart</h3>
+              <p>Tap “Order on Instagram”. Your order is copied, so just paste it into our DM.</p>
+              <p><a class="iglink" href="#" target="_blank" rel="noopener">@RUE.DE.ROSE_</a></p>
+            </div>
+            <div class="step">
+              <em>Step 3</em>
+              <h3>Order confirmation</h3>
+              <p>Receive payment details and track your delivery straight from your inbox.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page: collection -->
+      <div class="view" id="v-collection">
+        <div class="wrap">
+          <h2>All collections</h2>
+          <div class="chips" id="chips0"></div>
+          <div class="grid" id="g-collection"></div>
+        </div>
+      </div>
+
+      <!-- Page: earrings -->
+      <div class="view" id="v-earrings">
+        <div class="wrap">
+          <h2>All earrings</h2>
+          <div class="chips" id="chips1"></div>
+          <div class="grid" id="g-earrings"></div>
+        </div>
+      </div>
+
+      <!-- Page: necklaces -->
+      <div class="view" id="v-necklaces">
+        <div class="wrap">
+          <h2>All necklaces</h2>
+          <div class="chips" id="chips2"></div>
+          <div class="grid" id="g-necklaces"></div>
+        </div>
+      </div>
+
+      <!-- Page: bracelets -->
+      <div class="view" id="v-bracelets">
+        <div class="wrap">
+          <h2>All bracelets</h2>
+          <div class="chips" id="chips3"></div>
+          <div class="grid" id="g-bracelets"></div>
+        </div>
+      </div>
+
+      <!-- Page: rings -->
+      <div class="view" id="v-rings">
+        <div class="wrap">
+          <h2>All rings</h2>
+          <div class="chips" id="chips4"></div>
+          <div class="grid" id="g-rings"></div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="fg">
+        <div>
+          <h4>Rue de Rose</h4>
+          <p>Affordable, trendy jewellery for students and young adults. A little sparkle, a lot of elegance.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <a href="#earrings">Earrings</a>
+          <a href="#necklaces">Necklaces</a>
+          <a href="#bracelets">Bracelets</a>
+          <a href="#rings">Rings</a>
+        </div>
+        <div><h4>Help</h4><a href="#order">How to order</a><a href="#about">About us</a></div>
+        <div><h4>Follow</h4><a class="iglink" href="#" target="_blank" rel="noopener">@rue.de.rose_</a></div>
+      </div>
+      <div class="fb">© 2026 Rue de Rose. All rights reserved.</div>
+    </footer>
+
+    <div class="scrim" id="scrim"></div>
+
+    <!-- CART DRAWER -->
+    <aside id="cart" aria-hidden="true">
+      <div class="ah"><h2>Your cart</h2><button class="x" id="close" aria-label="Close cart">×</button></div>
+      <div class="items" id="items"></div>
+      <div class="foot" id="foot">
+        <div class="s"><span>Subtotal</span><span id="sub"></span></div>
+        <div class="s d"><span id="dl"></span><span id="dv"></span></div>
+        <div class="s t"><span>Total</span><span id="tot"></span></div>
+        <input id="nm" placeholder="Your name" autocomplete="name">
+        <input id="ph" placeholder="Phone number" inputmode="tel" autocomplete="tel">
+        <textarea id="ad" rows="2" placeholder="Delivery address" autocomplete="street-address"></textarea>
+        <p class="msg" id="msg"></p>
+        <button class="go" id="igb">Order on Instagram</button>
+        <button class="go" id="wab" hidden>Order on WhatsApp</button>
+      </div>
+    </aside>
+
+    <div class="toast" id="toast" role="status"></div>
+
+    <!-- IMAGES CONFIG & SCRIPTS -->
+    <script>
+      window.IMG = {
+          hero: "Home bg.jpg",
+          abouthero: "About.jpg",
+          portrait: "model.jpg",
+          c_earrings: "earrings.jpg",
+          c_necklaces: "necklaces.jpg",
+          c_bracelets: "bracelets.jpg",
+          c_rings: "rings.jpg",
+          heart: "Gold heart studs.jpg",
+          pearl: "Pearl drops.jpg",
+          pave: "pave.jpg",
+          hoops: "hoop.jpg",
+          flower: "flower.jpg",
+          shell: "shell.jpg",
+          cluster: "cluster.jpg",
+          satellite: "satellite.jpg",
+          solitaire: "solitaire.jpg",
+          band: "band.jpg",
+          sapphire: "sapphire.jpg"
+          
+      };
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
